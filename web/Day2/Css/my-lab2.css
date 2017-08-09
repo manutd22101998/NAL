@@ -1,0 +1,18 @@
+#font{
+    font-family: Tahoma;
+    font-size: 11px;
+}
+#font .text-h1{
+    text-transform: uppercase;
+}
+#font .text-ul{
+    font-family: Consolas;
+}
+#font .text{
+    color: red;
+    font-style: italic;
+}
+.text-information{
+    color: red;
+    font-style: italic;
+}

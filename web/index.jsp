@@ -49,7 +49,10 @@
 
   <%--<p>Example-13</p>--%>
   <%--<a href="./Day1/Example13/Example13.html">Example3</a>--%>
-  <p>Example Lab Day 2</p>
-  <a href="./Day2/HTML/my-lab2.html">Home</a>
+
+  <%--<p>Example Lab Day 2</p>--%>
+  <%--<a href="./Day2/HTML/my-lab2.html">Home</a>--%>
+  <p>Lab 3</p>
+  <a href="Day3/HTML/Example.html">Example</a>
   </body>
 </html>

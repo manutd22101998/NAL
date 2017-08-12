@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4</title>
+    <style type="text/css">
+        #header {
+            width: 100%;
+            background: white;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #menu-bar {
+            height: 1200px;
+            width: 450px;
+            background: white;
+            float: left;
+            border: 1px solid black;
+        }
+
+        #menu-bar h3 {
+            margin-left: 30px;
+        }
+
+        #menu-bar ul li {
+            list-style: none;
+            padding: 20px;
+        }
+
+        #menu-bar a {
+            text-decoration: none;
+        }
+
+        #menu-bar a:hover {
+            color: red;
+            border-bottom: 2px solid green;
+        }
+
+        #information {
+            height: 1200px;
+            width: 100%;
+            /*background: green;*/
+            border: 1px solid black;
+        }
+
+        .form {
+            margin-top: 50px;
+        }
+
+        .top1 {
+            border: 1px solid black;
+            height: 30px;
+            width: 40%;
+            margin-left: 31.8%;
+        }
+
+        .top1 p {
+            margin-top: 0;
+            color: red;
+        }
+
+        .top2 {
+            border: 1px solid black;
+            height: 30px;
+            width: 40%;
+            margin-left: 31.8%;
+            margin-top: 30px;
+        }
+
+        .top2 p {
+            margin-top: 0;
+        }
+
+        .row {
+            margin-left: 600px;
+            height: 40px;
+            width: 40%;
+            border-top: 1px solid black;
+            border-left: 1px solid #696969;
+            border-right: 1px solid #696969;
+            border-bottom: 1px solid #696969;
+        }
+
+        .row-header {
+            margin-top: 30px;
+            margin-left: 600px;
+            height: 40px;
+            width: 40%;
+            border-top: 1px solid black;
+            border-left: 1px solid #696969;
+            border-right: 1px solid #696969;
+            border-bottom: 1px solid #696969;
+        }
+
+        .colum-left {
+            width: 200px;
+            float: left;
+            border-right: 1px solid #696969;
+            line-height: 40px;
+            background: rgb(205, 210, 216);
+            /*background: gray;*/
+        }
+
+        .colum-right {
+            margin-left: 50px;
+        }
+
+        .input1 {
+            height: 24px;
+            margin-left: 20px;
+            margin-top: 5px;
+            width: 55%;
+        }
+
+        .input2 {
+            height: 24px;
+            margin-left: 20px;
+            margin-top: 5px;
+            width: 40%;
+        }
+
+        .input3 {
+            height: 24px;
+            margin-left: 20px;
+            margin-top: 5px;
+            width: 25%;
+        }
+
+        .select {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .span-select {
+            margin-left: 10px;
+        }
+
+        .hr-footer {
+            border-top: dotted 3px;
+            width: 30%;
+            margin-left: 690px;
+            color: red;
+        }
+
+        .pra-footer {
+            margin-left: 900px;
+        }
+        .txt-area{
+            height: 130px;
+            width: 35%;
+            margin-left: 10%;
+        }
+        .button-radio{
+            margin-left: 25%;
+            margin-top: 30px;
+        }
+        .btn-submit{
+            margin-left: 23%;
+            margin-top: 30px;
+        }
+    </style>
+
+</head>
+<body>
+<header id="header">
+    <h2>ニッセイ保険エージエンツー株式会社</h2>
+</header>
+<nav id="menu-bar">
+    <h3>Các thành phố :</h3>
+    <ul>
+        <li><a href="#">TOKYO</a></li>
+        <li><a href="#">NAGOYA</a></li>
+        <li><a href="#">OSAKA</a></li>
+        <li><a href="#">FUKUOKA</a></li>
+        <li><a href="#">HIROSHIMA</a></li>
+        <li><a href="#">SAPPORO</a></li>
+        <li><a href="#">KYOTO</a></li>
+    </ul>
+</nav>
+<article id="information">
+    <form action="#" class="form">
+        <div class="top1">
+            <p>ニッセイ保険エージエンツー株式会社</p>
+        </div>
+        <div class="top2">
+            <p>エージェンシークラブ新規会員登録</p>
+        </div>
+        <div class="row-header">
+            <div class="colum-left"><label>会社名</label></div>
+            <div class="colum-right"><input type="text" class="input1"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>会社名（フリガナ）</label></div>
+            <div class="colum-right"><input type="text" class="input1"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>氏名</label></div>
+            <div class="colum-right"><input type="text" class="input2"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>氏名（フリガナ）</label></div>
+            <div class="colum-right"><input type="text" class="input2"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>役職</label></div>
+            <div class="colum-right"><input type="text" class="input2"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>郵便番号</label></div>
+            <div class="colum-right"><input type="text" class="input3"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>会社住所
+            </label></div>
+            <div class="colum-right"><input type="text" class="input1"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>生年月日</label></div>
+            <div class="colum-right">
+                <select class="select">
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                </select><span class="span-select">年</span>
+                <select class="select">
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                </select><span class="span-select">月</span>
+                <select class="select">
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                </select><span class="span-select">日</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>電話番号</label></div>
+            <div class="colum-right"><input type="text" class="input1"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>メールアドレス</label></div>
+            <div class="colum-right"><input type="text" class="input1"></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>業種</label></div>
+            <div class="colum-right">
+                <select class="select">
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                    <option>2014</option>
+                </select>
+            </div>
+        </div>
+        <hr class="hr-footer">
+        <p class="pra-footer">サイト利用規約</p>
+        <p class="pra-footer">プライバシーポリシー</p>
+        <hr class="hr-footer">
+        <textarea class="txt-area">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+            Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+            written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+            "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+            reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malkorum" by Cicero are also
+            reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </textarea>
+        <div>
+            <input type="checkbox" class="button-radio">同意する
+        </div>
+        <div>
+            <input type="submit" value="登録内容を確認する" class="btn-submit">
+        </div>
+    </form>
+</article>
+</body>
+</html>

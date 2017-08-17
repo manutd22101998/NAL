@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 5</title>
+
+    <style type="text/css">
+        #header {
+            width: 100%;
+            background: white;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #menu-bar {
+            height: 750px;
+            width: 450px;
+            background: white;
+            float: left;
+            border: 1px solid black;
+        }
+
+        #menu-bar h3 {
+            margin-left: 30px;
+        }
+
+        #menu-bar ul li {
+            list-style: none;
+            padding: 20px;
+        }
+
+        #menu-bar a {
+            text-decoration: none;
+        }
+
+        #menu-bar a:hover {
+            color: red;
+            border-bottom: 2px solid green;
+        }
+
+        /*Css phần body trang web*/
+        #information {
+            height: auto;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        .form {
+            margin-top: 50px;
+        }
+
+        .top1 {
+            border: 1px solid black;
+            height: 30px;
+            width: 40%;
+            margin-left: 31.8%;
+        }
+
+        .top1 p {
+            margin-top: 0;
+            color: red;
+        }
+
+        .top2 {
+            margin-left: 31.8%;
+            margin-top: 30px;
+        }
+
+        .row {
+            margin-left: 600px;
+            height: 40px;
+            width: 40%;
+            border-top: 1px solid black;
+            border-left: 1px solid #696969;
+            border-right: 1px solid #696969;
+            border-bottom: 1px solid #696969;
+        }
+
+        .row-1 {
+            margin-left: 600px;
+            height: 80px;
+            width: 40%;
+            border-top: 1px solid black;
+            border-left: 1px solid #696969;
+            border-right: 1px solid #696969;
+            border-bottom: 1px solid #696969;
+        }
+
+        .row-header {
+            margin-top: 30px;
+            margin-left: 600px;
+            height: 40px;
+            width: 40%;
+            border-top: 1px solid black;
+            border-left: 1px solid #696969;
+            border-right: 1px solid #696969;
+            border-bottom: 1px solid #696969;
+        }
+
+        .colum-left {
+            width: 200px;
+            float: left;
+            border-right: 1px solid #696969;
+            line-height: 40px;
+            text-align: center;
+            /*background: gray;*/
+        }
+
+        .colum-left-1 {
+            text-align: center;
+            width: 200px;
+            float: left;
+            border-right: 1px solid #696969;
+            line-height: 80px;
+            /*background: gray;*/
+        }
+
+        .colum-right {
+            margin-left: 50px;
+            height: 100%;
+            margin-top: 10px;
+        }
+
+        .colum-right-1 {
+            margin-left: 50px;
+            height: 100%;
+            margin-top: 3px;
+        }
+
+        .input1 {
+            height: 24px;
+            margin-left: 20px;
+            margin-top: 5px;
+            width: 55%;
+        }
+
+        .hr-footer {
+            margin-top: 30px;
+            border-top: dotted 3px;
+            width: 30%;
+            margin-left: 690px;
+            color: red;
+        }
+
+        /*Css phần footer*/
+        #footer {
+            width: 100%;
+            height: 100px;
+            margin: 0;
+            background: white;
+            border: 1px solid black;
+        }
+
+        .pra-description {
+            text-align: center;
+            padding-top: 25px;
+        }
+
+        /*Css phần button*/
+        #button-image {
+            height: 70px;
+            width: 100%;
+            background: white;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            padding-bottom: 20px;
+        }
+
+        /*Css phần button*/
+        .fa {
+            border-radius: 120px;
+            text-align: center;
+            padding: 18px;
+            text-decoration: none;
+        }
+
+        .fa hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #5989d6;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #8bbced;
+            color: white;
+        }
+
+        .fa-google {
+            background: #bc401e;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #5e9cdb;
+            color: white;
+        }
+
+        .fa-skype {
+            background: #6bcde5;
+            color: white;
+        }
+
+        .fa-pinterest {
+            background: #d8634b;
+            color: white;
+        }
+
+        /*Css phần show ảnh*/
+        #show-image {
+            height: auto;
+            width: 100%;
+        }
+
+        #show-image .image:hover {
+            height: 420px;
+            width: 420px;
+            margin-left: 70px;
+            border: 3px solid red;
+            transform: scale(1.1);
+        }
+
+        .image {
+            height: 400px;
+            width: 400px;
+            margin-left: 70px;
+            border: 3px solid green;
+            transition: all 1s ease;
+        }
+
+        /*Hiệu ứng zoom ảnh*/
+        #show-image .image:hover {
+            margin-left: 70px;
+            border: 3px solid red;
+            transform: scale(1, 1);
+        }
+
+        .image1 {
+            height: 400px;
+            width: 750px;
+            margin-left: 70px;
+            border: 3px solid green;
+            transition: all 1s ease;
+            margin-top: 40px;
+        }
+
+        /*hiệu ứng zoom ảnh*/
+        #show-image .image1:hover {
+            margin-left: 70px;
+            border: 3px solid red;
+            transform: scale(1.1);
+        }
+
+        .image3 {
+            height: 400px;
+            width: 450px;
+            margin-left: 70px;
+            border: 3px solid green;
+            transition: all 1s ease;
+        }
+
+        /*Hiệu ứng zoome ảnh*/
+        #show-image .image3:hover {
+            margin-left: 70px;
+            border: 3px solid red;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+    <h2>Hội Khuyến Học NAL</h2>
+</header>
+<nav id="menu-bar">
+    <h3>Liên hệ với tôi : </h3>
+    <ul>
+        <li><a href="https://www.facebook.com/minhtienvu2210">Facebook</a></li>
+        <li><a href="https://www.instagram.com/phattrongtam2210/">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">Gmail</a></li>
+    </ul>
+</nav>
+<article id="information">
+    <form action="#" class="form">
+
+        <!--View show thông tin cá nhân-->
+        <div class="top2">
+            <h3>Thông tin cá nhân :</h3>
+        </div>
+        <div class="row-header">
+            <div class="colum-left"><label>Họ và tên :</label></div>
+            <div class="colum-right"><label class="input1"><strong>Vũ Minh Tiến (Tiến Công Chúa)</strong></label></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>Ngày sinh :</label></div>
+            <div class="colum-right"><label type="text" class="input1"> 22-10-1998</label></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>Địa chỉ :</label></div>
+            <div class="colum-right"><label type="text" class="input1">Vũ Tây - Kiến Xương - Thái Bình</label></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>Email :</label></div>
+            <div class="colum-right"><label type="text" class="input1">Minhtienvu2210@gmail.com</label></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>Số điện thoại :</label></div>
+            <div class="colum-right"><label type="text" class="input1">01636986950</label></div>
+        </div>
+        <div class="row">
+            <div class="colum-left"><label>Sở thích :</label></div>
+            <div class="colum-right"><label type="text" class="input1">Bóng đá,chơi thể thao,đọc sách,xem bóng
+                đá</label></div>
+        </div>
+        <hr class="hr-footer">
+    </form>
+
+    <!--View thông tin chi tiêt-->
+    <h3 class="top2">Thông tin chi tiết :</h3>
+    <div class="row-1">
+        <div class="colum-left-1"><label>Quan điểm :</label></div>
+        <div class="colum-right"><label type="text" class="input1">Nếu làm người khác vui bằng chính tài năng của
+            mình.Thì dù họ có gọi tôi là Tiến Công Chúa hay gọi tôi bằng biệt danh gì đi nữa.Tôi vẫn luôn vui vẻ vì biệt
+            danh đó mà họ đặt cho tôi.</label></div>
+    </div>
+    <div class="row">
+        <div class="colum-left"><label>Tính cách :</label></div>
+        <div class="colum-right"><label type="text" class="input1"><strong>Vui vẻ,hòa đồng,hay cười,hay làm
+            trò.</strong></label></div>
+    </div>
+    <div class="row">
+        <div class="colum-left"><label>Ưu điểm :</label></div>
+        <div class="colum-right-1"><label type="text" class="input1">Luôn thừa năng lương cho những hoạt động tập thể,
+            luôn nhiệt tình cho những hoạt động thể thao</label></div>
+    </div>
+    <div class="row">
+        <div class="colum-left"><label>Nhược điểm :</label></div>
+        <div class="colum-right"><label type="text" class="input1">Đôi khi có vài con bò trong người,đôi lúc bị phân tán
+
+            sự tập trung</label></div>
+    </div>
+    <div class="row">
+        <div class="colum-left"><label>Gia đình :</label></div>
+        <div class="colum-right"><label type="text" class="input1">Gồm 5 thành viên : Bố,Mẹ,Chị gái,Tôi,Em gái.</label>
+        </div>
+    </div>
+
+    <!--View phần button-->
+    <div id="button-image">
+        <a href="https://www.facebook.com/minhtienvu2210" class="fa fa-facebook">F</a>
+        <a href="http://www.twitter.com?Lang=en" class="fa fa-twitter">T</a>
+        <a href="http://www.google.com.vn/" class="fa fa-google">G</a>
+        <a href="http://vn.linked.com/" class="fa fa-linkedin">In</a>
+        <a href="http://www.skype.com/en/" class="fa fa-skype">S</a>
+        <a href="http://www.pinterest.com" class="fa fa-pinterest">P</a>
+    </div>
+
+
+    </div>
+    <!--View phần ảnh-->
+    <div id="show-image">
+        <img alt="Ảnh cá nhân" src="IMG/20476512_835768733259062_5441664544433904532_n%20(1).jpg" class="image">
+        <img alt="Ảnh cá nhân" src="IMG/19650264_10211985331020081_367346576_o.jpg" class="image1">
+        <img alt="Ảnh cá nhân" src="IMG/16299248_1897687477175620_2252297417783987095_n.jpg" class="image3">
+        <img alt="Ảnh cá nhân" src="IMG/19143209_1988429138101453_5415497581763039570_o.jpg" class="image1">
+        <img alt="Ảnh cá nhân" src="IMG/16426006_1900175793593455_1745404261019239623_n%20(1).jpg" class="image">
+
+    </div>
+</article>
+<footer id="footer">
+    <div>
+        <h3 class="pra-description">@Copywriter by Vu Minh Tien</h3>
+    </div>
+
+</footer>
+</body>
+</html>

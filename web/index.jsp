@@ -55,7 +55,10 @@
   <p>Lab 3</p>
   <a href="Day3/HTML/Example.html">Example</a>
 
-  <p>Lab 6</p>
+  <p>Lab 7</p>
   <a href="Day6/Example6.html">Example 6 </a>
   </body>
+
+  <p>Hãy click nếu bạn tò mò @Copywriter Vu Minh tien</p>
+  <a href="LearningNAL/HTML/HomePage.html">Learning NAL</a>
 </html>

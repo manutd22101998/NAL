@@ -1,0 +1,532 @@
+#menu-option {
+    margin: 0;
+    padding: 0;
+    height:55px;
+    width: 100%;
+    background: white;
+    position: fixed;
+    z-index: 2;
+}
+
+#menu-option img {
+    height: 45px;
+    width: 200px;
+    margin: 10px 15%;
+    float: left;
+}
+/*Css phần menu bar*/
+#menu-option ul {
+    list-style-type: none;
+    background: #1f5688;
+}
+#menu-option ul li {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#menu-option ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+#menu-option ul li a:hover {
+    background: #f1f1f1;
+    color: blue;
+}
+#menu-option input {
+    width: 150px;
+    height: 40px;
+    background: #2B78E4;
+    margin-left: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+/*Css phần body image*/
+#list-image {
+    height: 700px;
+    width: 100%;
+    background: rgb(100, 153, 239);
+    background-image: url("../IMG/staff-bg.jpg");
+}
+/*.............*/
+#first-slider .main-container {
+    padding: 0;
+}
+#first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight:700;
+}
+#first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight:700;
+}
+#first-slider .slide1 .text-left ,#first-slider .slide3 .text-left{
+    padding-left: 40px;
+}
+#first-slider .carousel-indicators {
+    bottom: 0;
+}
+#first-slider .carousel-control.right,
+#first-slider .carousel-control.left {
+    background-image: none;
+}
+#first-slider .carousel .item {
+    min-height: 425px;
+    height: 100%;
+    width:100%;
+}
+.carousel-inner .item .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#first-slider h3{
+    animation-delay: 1s;
+}
+#first-slider h4 {
+    animation-delay: 1s;
+}
+#first-slider h2 {
+    animation-delay: 1s;
+}
+#first-slider .carousel-control {
+    width: 6%;
+    text-shadow: none;
+}
+#first-slider h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#first-slider .p {
+    padding-top: 125px;
+    text-align: center;
+}
+
+#first-slider .p a {
+    text-decoration: underline;
+}
+#first-slider .carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255,255,255,.4);
+    border:none;
+}
+#first-slider .carousel-indicators .active{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border:none;
+}
+.carousel-control .fa-angle-right, .carousel-control .fa-angle-left {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+.carousel-control .fa-angle-left{
+    left: 50%;
+    width: 38px;
+    height: 38px;
+    margin-top: -15px;
+    font-size: 30px;
+    border: 3px solid #ffffff;
+    border-radius: 53px;
+}
+.carousel-control .fa-angle-right{
+    right: 50%;
+    width: 38px;
+    height: 38px;
+    margin-top: -15px;
+    font-size: 30px;
+    border: 3px solid #ffffff;
+    border-radius: 53px;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+#first-slider .slide1 {
+    background-image: url(http://s20.postimg.org/h50tgcuz1/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#first-slider .slide2 {
+    background-image: url(http://s20.postimg.org/uxf8bzlql/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#first-slider .slide3 {
+    background-image: url(http://s20.postimg.org/el56m97f1/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#first-slider .slide4 {
+    background-image: url(http://s20.postimg.org/66pjy66dp/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*...................*/
+#list-image p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+#header-image {
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    background: green;
+}
+
+/*Css phần body*/
+#information {
+    height: 1700px;
+    width: 100%;
+    background-image: url("../IMG/body-bg.png");
+    z-index: 1;
+}
+
+#information .p1 {
+    margin-left: 300px;
+    font-size: 25px;
+    display: inline;
+    border-bottom: 3px solid blue;
+}
+
+/*Css phần Talk-show*/
+#information .talk-show {
+    width: 70%;
+    height: 360px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.element {
+    height: 375px;
+    width: 29%;
+    float: left;
+    border: 1px solid gainsboro;
+    margin-left: 30px;
+}
+
+.element img {
+    height: 200px;
+    width: 100%;
+}
+
+.element h5 {
+    margin-left: 10px;
+}
+
+.element a {
+    color: black;
+}
+
+.element a:hover {
+    color: #2B78E4;
+    text-decoration: none;
+}
+
+.element p {
+    font-size: 12px;
+    margin-left: 10px;
+    max-width: 280px;
+}
+
+.element span {
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.element span a {
+    margin-left: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+}
+
+.element i {
+    margin-left: 130px;
+}
+
+.element time {
+    font-size: 13px;
+}
+
+.content-element {
+    margin-top: 12px;
+}
+
+/*End css phần Talk-show*/
+/*Css phần Recent-posts*/
+#recent-posts {
+    float: left;
+    height: 1000px;
+    width: 42.6%;
+    margin-top: 20px;
+    margin-left: 16.9%;
+}
+
+#recent-posts .recent-element {
+    height: 160px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    margin-top: 30px;
+}
+
+.recent-element img {
+    height: 140px;
+    width: 35%;
+    padding-top: 15px;
+    margin-left: 15px;
+    display: inline;
+    float: left;
+}
+
+.recent-element h5 {
+    margin-top: 15px;
+}
+
+.recent-element h5 a {
+    margin-left: 25px;
+}
+
+.recent-element p {
+    font-size: 12px;
+    margin-left: 40%;
+    max-width: 380px;
+}
+
+.icon-recent {
+    height: 50px;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.icon-recent span {
+    margin-top: 17px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.icon-recent span a {
+    margin-left: 10px;
+}
+
+.icon-recent i {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.tieude a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.icon-recent time {
+    font-size: 10px;
+}
+
+/*CSS top authors*/
+#top-authors {
+    height: 400px;
+    width: 310px;
+    margin-left: 61.5%;
+    margin-top: 40px;
+}
+
+.top-author {
+    height: 68px;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.top-author span {
+    font-size: 22px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+}
+
+.top-author img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.top-author .author {
+    margin-left: 20px;
+}
+
+.top-author i {
+    margin-left: 10px;
+}
+
+.top-author a {
+    margin-left: 10px;
+    color: slategrey;
+}
+
+.top-author a:hover {
+    color: #2B78E4;
+    text-decoration: none;
+}
+
+.top-author h3 {
+    float: left;
+    margin-left: 29px;
+}
+
+/*End top authors*/
+
+/*CSS populator post*/
+#popular-posts {
+    height: 415px;
+    width: 310px;
+    margin: auto;
+    margin-left: 61.5%;
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+}
+
+#popular-posts h4 {
+    margin-left: 20px;
+}
+
+.top-populator {
+    height: 60px;
+    width: 100%;
+}
+
+.top-populator span {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.top-populator p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.top-populator a {
+    margin-left: 20px;
+}
+
+.top-populator i {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.top-populator a {
+    margin-left: 15px;
+    color: slategrey;
+}
+
+.top-populator a:hover {
+    color: #2B78E4;
+    text-decoration: none;
+}
+
+.top-populator h3 {
+    margin-left: 20px;
+    float: left;
+}
+
+/*End css papulator post*/
+
+/**/
+#categories {
+    height: 300px;
+    width: 310px;
+    margin: auto;
+    margin-left: 61.5%;
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+}
+
+.header-categories {
+    height: 30px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid gainsboro;
+}
+
+.header-categories h4 {
+    margin-left: 20px;
+}
+
+.list-categories {
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+}
+
+.list-categories span {
+    margin-right: 20px;
+}
+
+.list-categories p {
+    margin-top: 13px;
+    font-size: 12px;
+}
+
+.list-categories a {
+    margin-left: 20px;
+    float: left;
+    color: slategrey;
+}
+
+.list-categories a:hover {
+    color: #2B78E4;
+    text-decoration: none;
+}
+
+/*End css categories*/
+
+.pagation {
+    height: 100px;
+    width: 40%;
+    margin-left: 20%;
+}
+
+/*Css phần footer*/
+#footer-page {
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+}
+
+#footer-page p {
+    font-size: 12px;
+    margin-left: 17%;
+    margin-top: 15px;
+    float: left;
+}
+
+.list-icon {
+    margin-left: 70%;
+    margin-top: 15px;
+}
+
+.list-icon li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+}
